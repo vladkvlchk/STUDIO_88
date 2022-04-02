@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="index.css">
+        <title>studio 88</title>
+        <link rel="icon" href="media/logo.png">
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <div class="content">
+            <header>
+                <div class="logo">
+                    <img src="./media/logo.png"/>
+                </div>
+                <div class="logo-name"><h1>studio 88</h1></div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./src/catalog/catalog.html">Catalog</a></li>
+                        <li><a href="./src/aboutUs/aboutUs.html">About us</a></li>
+                        <li><a href="./src/contacts/contacts.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="blocks">
+                <section class="index-description">
+                    <div class="i-d-conteiner">
+                        <h1>We can anything in {this.world}</h1>
+                        <h3>Jusk give us a task</h3>
+                        <p>Do you need a website for your business? -No problem! We will make you a website for any needs. All you have to do is tell us what you want and we'll do it ourselves.</p>
+                        <button data-modal-target="#modal" class="contactUs-btn">Contact us</button>
+                        <div class="modal" id="modal">
+                            <div class="modal-header">
+                                <div class="modal-title">Get in touch</div>
+                                <div class="close-btn">
+                                    <button data-close-button class="modal-close-btn">&times;</button>
+                                </div>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modal-form">
+                                    <form action="#" method="post">
+                                        <ul>
+                                            <li>
+                                                <label for="name-for-message">Name:</label><br>
+                                                <input type="text" id="name-for-message" placeholder="Taras Shevchenko">
+                                            </li>
+                                            <li>
+                                                <label for="email-for-message">E-mail:</label><br>
+                                                <input type="email" placeholder="taras@gmail.com">
+                                            </li>
+                                            <li>
+                                                <label for="text-for-message">Your message:</label><br>
+                                                <textarea id="text-for-message"></textarea>
+                                            </li>
+                                        </ul>
+                                        <input type="submit" value="Send">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="overlay" class="overlay"></div>
+                    </div>
+                </section>
+                <section class="index-img">
+                    <img src="./media/alien_hello.png"/>
+                </section>
+                <section class="awards-block">
+                    <div class="award">
+                        <img src="./media/winner.svg" />
+                        <h2>best studio 2022</h2>
+                    </div>
+                </section>
+                <section class="statistics-block">
+                    <label>
+                        <h1 id="count-customers">60+</h1>
+                        <h3>satisfied customers</h3>
+                    </label>
+                    <label>
+                        <h1 id="count-projects">130+</h1>
+                        <h3>implemented projects</h3>
+                    </label>
+                    <label>
+                        <h1 id="count-areas">10+</h1>
+                        <h3>bisness areas</h3>
+                    </label>
+                    <label>
+                        <h1 id="count-years">4+</h1>
+                        <h3>years of experience</h3>
+                    </label>
+                </section>
+                <section class="FAQ">
+                    <h1>FAQ</h1>
+                    <div class="QA">
+                        <div class="question">
+                            <img src="./media/expand_more_white_24dp.svg">
+                            <h2>Our work schedule</h2>
+                        </div>
+                        <div class="answer">
+                            <table>
+                                <tr>
+                                    <td>Monday</td>
+                                    <td>10:00 - 18:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Tuesday</td>
+                                    <td>10:00 - 18:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Wednesday</td>
+                                    <td>10:00 - 18:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Thursday</td>
+                                    <td>10:00 - 18:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Friday</td>
+                                    <td>10:00 - 18:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td>---</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday</td>
+                                    <td>---</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="QA">
+                        <div class="question">
+                            <img src="./media/expand_more_white_24dp.svg">
+                            <h2>What direction do we promote?</h2>
+                        </div>
+                        <div class="answer">We believe that for every project it is better to use React for component and use for Front-end. And of course, you should use Node.js for the Back-end. Our technicians are well qualified in these technologies and link them with others</div>
+                    </div>
+
+                    <div class="QA">
+                        <div class="question">
+                            <img src="./media/expand_more_white_24dp.svg">
+                            <h2>Which orders are we most likely to refuse?</h2>
+                        </div>
+                        <div class="answer">We will not participate in projects that fraudulently earn money. For example, casinos and SCAM-projects and others. We care about the clean karma of the company and want to bring only benefit to society.</div>
+                    </div>
+                    
+                    <div class="QA">
+                        <div class="question">
+                            <img src="./media/expand_more_white_24dp.svg">
+                            <h2>Will we return the money if you are unhappy with the result?</h2>
+                        </div>
+                        <div class="answer">No, you won't get your money back. Our team consists exclusively of professionals who perform their duties with high quality and in any case they should receive a decent salary for their work. In the entire history of our company, no one has yet demanded money back, as 100% of our clients are satisfied with the result. And you will be satisfied too :)</div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <footer>
+            <p>&#169;studio 88</p>
+        </footer>
+    </body>
+</html>
